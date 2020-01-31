@@ -1,3 +1,4 @@
+Market_Fact
 - Read the Market Fact data into market_df
 - Display the top five rows
 - Display the last three rows
@@ -15,3 +16,68 @@
 - How many unique products are there
 - How amny unique customers are there
 - What is the maximum sales
+
+
+Prod_dimen.csv
+- Read the Prod_diment data into prod_df
+- Display the top two rows
+- Display the last three rows
+- Select one row randomly
+- Check the total number of entries you have
+- Check the No of features
+- Print features Names(Column Names)
+- Check the dtype of each and every columns
+- Merge Market_df and Prod_pf creaate new datarame with comb_data
+- check the number of rows and columns in comb_data.
+- In the comb_data check the value counts in "Product_Category" and "Product_Sub_Category" columns
+
+Orders_dimen.csv
+- Read the Orders_dimen data into ord_df
+- Display the top two rows
+- Display the last three rows
+- Select one row randomly
+- Check the total number of entries you have
+- Check the No of features
+- Print features Names(Column Names)
+- Check the dtype of each and every columns
+- Check the "Order_Date" column type if it is object convert it into datetime
+- Create two new columns Order_Year and Order_Month with year and month vcalues from Order_date
+- Merge comb_data and ord_df and write the reslut into comb_data
+- check the number of rows and columns in comb_data.
+- In the comb_data check the value counts in "Order_Priority"
+- In the comb_data check the value counts for "Order_Year"
+- In which Year the customer have Highest no of orders
+- In the comb_data check the value counts for Order_Month
+- In which Month the customer have Highest no of orders
+
+cust_dimen.csv
+- Read the cust_dimen data into cust_df
+- Display the top two rows
+- Display the last three rows
+- Select one row randomly
+- Check the total number of entries you have
+- Check the No of features
+- Print features Names(Column Names)
+- Check the dtype of each and every columns
+- Merge comb_data and cust_df and write the reslut into comb_data
+- check the number of rows and columns in comb_data.
+- In the comb_data check the value counts in "Customer_Segment"
+
+shipping_dimen.csv
+- Read the shipping_dimen data into ship_df
+- Display the top two rows
+- Display the last three rows
+- Select one row randomly
+- Check the total number of entries you have
+- Check the No of features
+- Print features Names(Column Names)
+- Check the dtype of each and every columns
+- Check the "Ship_Date" column type if it is object convert it into datetime
+- Create two new columns Ship_Year and Ship_Month with year and month vcalues from Order_date
+- Merge comb_data and ord_df and write the reslut into comb_data
+- check the number of rows and columns in comb_data.
+- In the comb_data check the value counts for "Ship_Year"
+- In which Year the customer have Highest no of Shippings
+- In the comb_data check the value counts for Ship_Month
+- In which Month the customer have Highest no of Shippings
+- Create a new columns "Duration" whcih the diffenence b/n Ship_Date and Order_Date 
