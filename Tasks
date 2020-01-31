@@ -1,0 +1,17 @@
+- Read the Market Fact data into market_df
+- Display the top five rows
+- Display the last three rows
+- Check the total number of entries you have
+- Check the No of features
+- Print features Names(Column Names)
+- Print the row indices of the dataframe
+- Check the dtype of each and every columns
+- Description for Numerical Column min,max,count,25%,50%,75%,std
+- Description for the categorical Columns count,top,freq
+- Missing value count column wise
+- Total Missing values count in the DataFrame
+- Check the output for the info function
+- Access 3,5,7 columns using iloc,loc and without using any of them
+- How many unique products are there
+- How amny unique customers are there
+- What is the maximum sales
