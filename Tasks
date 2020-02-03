@@ -81,3 +81,42 @@ shipping_dimen.csv
 - In the comb_data check the value counts for Ship_Month
 - In which Month the customer have Highest no of Shippings
 - Create a new columns "Duration" whcih the diffenence b/n Ship_Date and Order_Date 
+
+
+03-02-2020
+- Remove the column "Unnamed:0"
+- get the categorical column names
+- get the numerical columns
+- Replace the missing values in numerical columns with their mean
+- Draw the histogram of any one numerical column
+    - Place the title of the graph as "Histogram"
+    - On each bin print the count in that bin in the graph
+- Draw the boxplot of any one column
+- Create a subplot of (2,2).
+    -(2,2,1) is a histogram
+    -(2,2,2) is a boxplot
+- Create a Subplot caluculate the no of graphs required based on number of numerical columns.
+    - No of rows in the subplot equal to no of numerical columns
+    - The plot should contains two graphs in each row. 
+        - First is histogram and 
+        - the second one is boxplot
+    - Use figure size in plt.figure for proper graph size.
+- Create Barplot for a categorical column
+    - use the legend
+    - xlabel
+    - ylabel
+- Create a subplot for categorical column barplots
+
+        
+    
+
+
+
+
+
+
+
+
+
+
+
