@@ -1,0 +1,84 @@
+{
+  "name": "check",
+  "auto": true,
+  "contexts": [],
+  "responses":[
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Ask the questions related to Courses and training?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    },
+	{
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Ask the questions related to Courses"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "userSays":[
+  {
+    
+    "data": [
+      {
+        "text": "How to ask a question",
+        "userDefined": false
+      }
+	  
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+   
+    "data": [
+      {
+        "text": "Can I ask a Question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+   
+    "data": [
+      {
+        "text": "what type of questions I should ask?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+	}
+ ]
+}
